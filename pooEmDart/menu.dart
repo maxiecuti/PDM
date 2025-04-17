@@ -1,9 +1,5 @@
 import 'dart:io';
 import 'barrel.dart';
-import 'ex1.dart';
-import 'ex2.dart';
-import 'ex3.dart';
-import 'ex4.dart';
 
 void exibirMenu(){
 
