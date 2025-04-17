@@ -27,13 +27,13 @@ void exibirMenu(){
       escolha = int.parse(stdin.readLineSync()!);
 
       switch(escolha){
-        case 1: produto();
+        case 1: Produto();
           break;
-        case 2: contaBancaria();
+        case 2: ContaBancaria();
           break;
-        case 3: funcionario();
+        case 3: Funcionario();
           break;
-        case 4: aluno();
+        case 4: Aluno();
           break;
       }
     }while (escolha != 9);
