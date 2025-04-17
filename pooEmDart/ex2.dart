@@ -30,7 +30,7 @@ class ContaBancaria {
 }
 
 //construtor nomeado
-void contaBancaria(){
+void main(){
 ContaBancaria contaBancaria1 = new ContaBancaria.nomeado("Greycin Karla", 3500);
 
   print('''O titular:${contaBancaria1.titular} 
