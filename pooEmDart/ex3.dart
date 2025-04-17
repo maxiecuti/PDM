@@ -26,7 +26,7 @@ class Funcionario{
   }
 }
 
-void funcionario(){
+void main(){
   Funcionario funcionario1 = new Funcionario.nomeado("Juliana", -600);
 
   print('''A funcionaria:${funcionario1._nome} 
