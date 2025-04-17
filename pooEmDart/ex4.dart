@@ -14,7 +14,7 @@ class Aluno{
 
   Aluno.nomeado(this.nome, this.nota1, this.nota2);
 }
- void aluno(){
+ void main(){
   Aluno aluno1 = new Aluno.nomeado("Elis", 6.5, 9);
   aluno1.media = Aluno().media;
 
